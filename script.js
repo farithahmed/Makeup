@@ -6,7 +6,7 @@ let products = [];
 getProductList();
 
 async function getProductList() {
-    let productList = await fetch(BASE_URL + PRODUCT_URL)
+    let productList = await fetch(BASE_URL + PRODUCT_URL);
     //let productList = await fetch('http://127.0.0.1:5500/product.json');
     products = await productList.json();
     let html = ''

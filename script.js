@@ -1,4 +1,4 @@
-let BASE_URL = "http://makeup-api.herokuapp.com/api/v1/";
+let BASE_URL = "https://makeup-api.herokuapp.com/api/v1/";
 let PRODUCT_URL = "products.json";
 let products = [];
 // Fetching product data

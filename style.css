@@ -1,0 +1,360 @@
+/* 
+
+
+
+body{
+    background-color:grey;
+}
+.navbar-brand{
+
+}
+.d-flex{
+    margin-right: 430px;
+    width: 500px;
+    margin-top: 80px;
+    float: right;
+} 
+.form-control{
+    width:400px ;
+}
+
+
+
+.navbar-brand{
+    text-decoration: none;
+    color: whitesmoke;
+    
+
+      
+   
+}
+.row{
+    float: left;
+}
+
+.col-md-2{
+    
+    margin-top: 50px;
+    width: 300px;
+background-color: lightgrey;
+    padding: 20px; 
+    height: 1000px;
+    border: 3px solid black;
+    
+
+
+
+}
+.col-md-6{
+    float: center;
+    border: 3px solid black;
+
+
+  padding: 50px; 
+  margin-left: 400px;
+  margin-top: 100px;
+ width: 500px;
+ background-color: aliceblue;
+height: 1000px;
+
+} */
+
+.row{
+   margin-top: 50px;
+}
+.section_1 ul{
+    list-style-type: none;
+}
+.section_1 ul li{
+    cursor: pointer;
+}
+.section_2 ul{
+    list-style-type: none;
+}
+.section_2 ul li{
+    cursor: pointer;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.product_list{
+   max-height: 300px;
+   margin-bottom: 10px;
+}
+.product_list .card{
+    border:0px;
+}
+.col-md-3{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.form-select{
+    margin-bottom: 20px;
+}
+.products{
+    margin-bottom: 30px;
+}
+
+.dress-card-img-top {
+    width:100%;
+    height: 300px;
+    border-radius: 7px 7px 0 0;
+  }
+  
+  .dress-card-body {
+    padding:1rem;
+    background: #fff;
+    border-radius: 0 0 7px 7px;
+  }
+  
+  .dress-card {
+   height: 540px;
+   border-bottom: 1px solid #E06C9F;
+   margin-bottom: 10px;
+  }
+  
+  .dress-card-crossed {
+    text-decoration: line-through;
+  }
+  
+  .dress-card-price,.dress-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .dress-card-price{
+      color: #B12704!important;
+  }
+  
+  .dress-card-off {
+    color: #E06C9F;
+  }
+  
+  .dress-card-para {
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
+    color: #0F1111;
+  }
+  
+  .dress-card {
+    border-radius: 14px;
+  }
+  
+  .dress-card-heart {
+    font-size: 1em;
+    color: #DB2763;
+    margin: 4.5px;
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    
+  }
+  
+  .surprise-bubble {
+    position: absolute;
+    bottom: 12rem;
+    right: 2rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    padding: 1rem;
+    color: white;
+    -webkit-transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .surprise-bubble a {
+    font-size: 0.65em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    opacity: 0;
+    -webkit-transition-delay: 2s;
+    /* Safari */
+    transition-delay: 2s;
+    -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .surprise-bubble:hover {
+    border-radius: 999rem;
+    padding: 1rem;
+    width: 26%;
+    height: 30px;
+    background: #DB2763;
+    color: white;
+    -webkit-transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .surprise-bubble:hover a {
+    opacity: 1;
+    -webkit-transition-delay: 2s;
+    /* Safari */
+    transition-delay: 2s;
+    -webkit-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .card-button {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 9px;
+  }
+  .card-button a {
+    text-decoration: none;
+  }
+  
+  .card-button-inner {
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .bag-button {
+    background: #E06C9F;
+    color: white;
+  }
+  
+  .bag-button :hover{
+    background: #e299b9;
+  }
+  
+  .wish-button {
+    border: 1px solid #E06C9F;
+    color: #E06C9F;
+  }
+  
+  .load_more{
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  /* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, .8));
+
+  background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 150ms infinite linear;
+  -moz-animation: spinner 150ms infinite linear;
+  -ms-animation: spinner 150ms infinite linear;
+  -o-animation: spinner 150ms infinite linear;
+  animation: spinner 150ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
